@@ -2,7 +2,7 @@ node {
      checkout scm
 	
 	 docker.withRegistry('https://hub.docker.com/','docker_hub') {
-	     def customImage = docker.build("vivek13s/app")
+	     def customImage = docker.build("vivek13sv/app")
 		 
 		 /*Push the container to the custom Registry */
 		 customImage.push()
