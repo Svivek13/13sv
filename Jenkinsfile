@@ -4,7 +4,7 @@ pipeline {
     
     environment{
         dockerImage = ''
-        registry = 'vivek13s/flaskapp'
+        registry = 'vivek13s/pythonapp'
         registryCredential = 'docker_hub'
     }
     
